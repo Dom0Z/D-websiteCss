@@ -15,3 +15,67 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Modular scale: 1.2
     https://www.modularscale.com/?23&px&1.2
 */
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:medium;
+  line-height: normal;
+  padding: 0.5em;
+
+}
+
+h2,
+h3,
+p {
+  padding-bottom: 0.5em;
+}
+
+h1 {
+ font-size: 2em;
+ font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 1.15em;
+}
+
+h5{
+  font-size: 1em;
+}
+
+h6{
+  font-size: .095em;
+}
+
+
+
+
+/* Id */ 
+#footer{
+  padding-top: 1em;
+  position: fixed;
+  left: 0em;
+  bottom: 0em;
+  text-align: center;
+  width: 100%;
+}
+#nav li {
+  display: inline;
+  padding: 0.25em;
+}
+
+#header{
+  text-align: center;
+}
+
+
+
