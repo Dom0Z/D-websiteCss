@@ -17,7 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:medium;
+  font-size: medium;
   line-height: normal;
   padding: 0.5em;
 
@@ -30,8 +30,8 @@ p {
 }
 
 h1 {
- font-size: 2em;
- font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 h2 {
@@ -39,32 +39,29 @@ h2 {
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-size: 1.25em;
   font-weight: bold;
 }
 
-h4{
+h4 {
   font-size: 1.15em;
 }
 
-h5{
+h5 {
   font-size: 1em;
 }
 
-h6{
-  font-size: .095em;
+h6 {
+  font-size: 0.095em;
 }
 
 
 
 
-/* Id */ 
-#footer{
+/* Id */
+#footer {
   padding-top: 1em;
-  position: fixed;
-  left: 0em;
-  bottom: 0em;
   text-align: center;
   width: 100%;
 }
@@ -73,7 +70,7 @@ h6{
   padding: 0.25em;
 }
 
-#header{
+#header {
   text-align: center;
 }
 
