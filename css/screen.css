@@ -17,11 +17,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: medium;
-  line-height: normal;
+  font-size: 1.125em;
+  line-height: 1.33em;
   padding: 0.5em;
 
 }
+
+
 
 h2,
 h3,
@@ -54,6 +56,12 @@ h5 {
 
 h6 {
   font-size: 0.095em;
+}
+
+img {
+  text-align: center ;
+  padding: 1em;
+
 }
 
 
