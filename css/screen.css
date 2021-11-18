@@ -16,7 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     https://www.modularscale.com/?23&px&1.2
 */
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.125em;
   line-height: 1.33em;
   padding: 0.5em;
@@ -35,7 +35,6 @@ p {
 }
 
 h1 {
-  color: black;
   font-size: 2em;
   font-weight: bold;
   padding-bottom: 0.5em;
@@ -96,6 +95,30 @@ ul{
 
 #header {
   text-align: center;
+  color: white;
+}
+#information{
+  background: #666699;
+}
+#project h3{
+  padding-top: 0.5em;
+  font-size: 1.25em;
+  font-weight: bold;
+  background-color: #666699;
+  text-align: center;
+}
+#project li{
+  text-align: center;
+}
+#project a{
+  background-color: #ADD8E6;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
 
 
