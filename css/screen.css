@@ -22,8 +22,6 @@ html {
   padding: 0.5em;
   background:#333333 ;
   color: #FFFFFF;
-
-
 }
 
 
@@ -100,6 +98,10 @@ ul{
 #information{
   background: #666699;
 }
+
+#information a{
+  background: #ADD8E6;
+}
 #project h3{
   padding-top: 0.5em;
   font-size: 1.25em;
@@ -113,6 +115,9 @@ ul{
 #project a{
   background-color: #ADD8E6;
 }
+#kaunas a{
+  background-color: #ADD8E6;
+}
 .row {
   display: flex;
 }
@@ -120,6 +125,14 @@ ul{
 .column {
   flex: 50%;
 }
+.r2{
+  display: flex;
+}
+.c2{
+  flex: 50%;
+}
+
+
 
 
 
