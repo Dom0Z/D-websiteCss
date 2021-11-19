@@ -122,6 +122,7 @@ figcaption {
 #project li {
   text-align: center;
 }
+
 #project a {
   background-color: #ADD8E6;
 }
@@ -144,7 +145,6 @@ figcaption {
   }
   img {
     padding: 1em;
-    max-width: 50%;
     height: auto;
   }
 }
@@ -162,12 +162,7 @@ figcaption {
   .cwork {
     flex: 50%;
   }
-  .rsudoku {
-    display: flex;
-  }
-  .csudoku {
-    flex: 50%;
-  }
+  
 }
 
 
