@@ -81,6 +81,13 @@ img {
   
 }
 
+figcaption{
+  font: 1em sans-serif;
+  padding: 0.5em;
+  text-align: center;
+  color: #fff;
+}
+
 
 
 /* Id */
