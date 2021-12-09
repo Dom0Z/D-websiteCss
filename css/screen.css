@@ -15,74 +15,76 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Modular scale: 1.2
     https://www.modularscale.com/?23&px&1.2
 */
+/*
+Half padding: 0.666666666em;
+single paddding: 1.333333333em;
+Double padding:2.666666666em;
+
+*/
 .html {
   font-family: Arial, sans-serif;
   font-size: 1.125em;
-  line-height: 1.33em;
-  padding: 0.5em;
+  line-height: 1.333em;
   background: #333333 ;
   color: #FFFFFF;
 }
 
 
 
-h2,
-h3,
-p {
-  padding-bottom: 0.5em;
-}
-
 h1 {
-  font-size: 2em;
+  font-size: 2.111em; /*38/18 = 2.111*/
+  line-height: 1.333em;
   font-weight: bold;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.6666667em; /*12/18 = 0.666667*/
 }
 
 h2 {
-  padding-top: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.38888888888em; /*25/18 = 1.3888888em*/
   font-weight: bold;
   background-color: #666699;
   text-align: center;
+  padding: 0.277777777em; /*5/18 = 0.27777777*/
+  
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.1111111em; /*20/18 = 1.1111111em*/
   font-weight: bold;
+  padding: 0.277777777em; /*5/18 = 0.27777777*/
+  
 }
 
 h4 {
-  font-size: 1.15em;
-  padding-bottom: 0.5em;
+  font-size: 1em;   
+  padding-bottom: 0.667777em; /*12/18 = 0.666667*/
 }
 
 h5 {
-  font-size: 1em;
+   font-size: 0.833em; /*15/18 = 0.83333*/
 }
 
 h6 {
-  font-size: 0.095em;
+  font-size: 0.667777em; /*12/18 = 0.666667*/
 }
 
 
 li {
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
+  padding: 0.277777777em; /*5/18 = 0.27777777*/
 }
 ul {
-  padding-bottom: 0.5em;
-}
+   padding-bottom: 0.667777em; /*12/18 = 0.666667*/
+  }
 
 img {
-  padding: 1em;
+  padding: 1em;/*18/18 = 1em*/
   max-width: 25%;
   height: auto;
   object-fit: fill;
 }
 
 figcaption {
-  font: 1em sans-serif;
-  padding: 0.5em;
+  font-size: 1em;   /*18/18 = 1em*/
+  padding: 0.667777em; /*12/18 = 0.666667*/
   text-align: center;
   color: #fff;
 }
@@ -91,13 +93,13 @@ figcaption {
 
 /* Id */
 #footer {
-  padding-top: 1em;
+  padding-top: 1em; /*18/18 = 1em*/
   text-align: center;
   width: 100%;
 }
 #nav li {
   display: inline;
-  padding: 0.25em;
+  padding: 0.277777777em; /*5/18 = 0.27777777*/
   background: #ADD8E6;
 }
 
@@ -113,8 +115,8 @@ figcaption {
   background: #ADD8E6;
 }
 #project h3 {
-  padding-top: 0.5em;
-  font-size: 1.25em;
+  padding-top: 0.277777777em; /*5/18 = 0.27777777*/
+  font-size: 1.1111111em; /*20/18 = 1.1111111em*/
   font-weight: bold;
   background-color: #666699;
   text-align: center;
@@ -144,7 +146,7 @@ figcaption {
     flex: 50%;
   }
   img {
-    padding: 1em;
+    /* padding: 1em; */
     height: auto;
   }
 }
