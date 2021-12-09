@@ -139,29 +139,29 @@ figcaption {
 
 
 @media screen and (min-width: 40.625em) {
-  .redu {
+  .wrapperedu {
     display: flex;
   }
-  .cedu {
+  .columnedu {
     flex: 50%;
   }
   img {
-    /* padding: 1em; */
+    padding: 1em;  /*18/18 = 1em*/
     height: auto;
   }
 }
 
 @media screen and (min-width: 46.25em) {
-  .row {
+  .wrapper {
     display: flex;
   }
   .column {
     flex: 50%;
   }
-  .rwork {
+  .wrapperwork {
     display: flex;
   }
-  .cwork {
+  .columnwork {
     flex: 50%;
   }
   
