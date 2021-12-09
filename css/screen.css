@@ -25,8 +25,17 @@ Double padding:2.666666666em;
   font-family: Arial, sans-serif;
   font-size: 1.125em;
   line-height: 1.333em;
+}
+
+body {
   background: #333333 ;
   color: #FFFFFF;
+}
+
+.lightmode {
+  color:#333333;
+  background: #FFFFFF;
+
 }
 
 
@@ -105,7 +114,6 @@ figcaption {
 
 #header {
   text-align: center;
-  color: white;
 }
 #information {
   background: #666699;
