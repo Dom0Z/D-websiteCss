@@ -33,7 +33,7 @@ body {
 }
 
 .lightmode {
-  color:#333333;
+  color: #333333;
   background: #FFFFFF;
 }
 
@@ -54,23 +54,21 @@ h2 {
   background-color: #666699;
   text-align: center;
   padding: 0.277777777em; /*5/18 = 0.27777777*/
-  
 }
 
 h3 {
   font-size: 1.1111111em; /*20/18 = 1.1111111em*/
   font-weight: bold;
   padding: 0.277777777em; /*5/18 = 0.27777777*/
-  
 }
 
 h4 {
-  font-size: 1em;   
+  font-size: 1em;
   padding-bottom: 0.667777em; /*12/18 = 0.666667*/
 }
 
 h5 {
-   font-size: 0.833em; /*15/18 = 0.83333*/
+  font-size: 0.833em; /*15/18 = 0.83333*/
 }
 
 h6 {
@@ -82,8 +80,8 @@ li {
   padding: 0.277777777em; /*5/18 = 0.27777777*/
 }
 ul {
-   padding-bottom: 0.667777em; /*12/18 = 0.666667*/
-  }
+  padding-bottom: 0.667777em; /*12/18 = 0.666667*/
+}
 
 img {
   padding: 1em;/*18/18 = 1em*/
@@ -180,7 +178,6 @@ input {
   .columnwork {
     flex: 50%;
   }
-  
 }
 
 
