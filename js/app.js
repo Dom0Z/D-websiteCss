@@ -1,5 +1,10 @@
-function nightMode(input){
+var input = document.getElementById("toggle");
+input.addEventListener("click", nightMode, false);
+
+function nightMode(){
+  
   var element = document.body;
+
   element.classList.toggle("lightmode");
   console.log(input.getAttribute('src'));
 
