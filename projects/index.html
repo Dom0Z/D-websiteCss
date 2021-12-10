@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="../css/screen.css"/>
     
     <title>Projects: Domantas Zilenas</title>
-    <button onclick="nightMode()">Toggle dark mode</button>
+    
   </head>
   <body>
     <header id="header">
       <h1>Domantas Zilenas</h1>
-      <nav id="nav">
+      <input type="image" src="../Icons/sunpixel.png" name="nightToggle" class="button" id="toggle"  onclick="nightMode(this)"/>
+    </header>
+    <nav id="nav">
         <ul>
           <li><a href="../"> Home</a></li>
           <li><a href="../resume/"> Resume</a></li>
           <li><a href="../projects/">Projects</a></li>
         </ul>
       </nav>
-    </header>
     <article id="project">
       <h2>Projects:</h2>
       <section id="weather">
@@ -75,6 +76,6 @@
     <footer id="footer">
       <p>Site content and design copyright Domantas Zilenas</p>
     </footer>
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>

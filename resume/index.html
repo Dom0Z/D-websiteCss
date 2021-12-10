@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="../css/screen.css"/>
     <title>Resume: Domantas Zilenas</title>
-    <button onclick="nightMode()">Toggle dark mode</button>
   </head>
   <body>
     <header id="header">
       <h1>Domantas Zilenas</h1>
-      <nav id= "nav">
+      <input type="image" src="../Icons/sunpixel.png" name="nightToggle" class="button" id="toggle"  onclick="nightMode(this)"/>
+      
+    </header>
+    <nav id= "nav">
         <ul>
           <li><a href="../"> Home</a></li>
           <li><a href="../resume/"> Resume</a></li>
           <li><a href="../projects/">Projects</a></li>
         </ul>
       </nav>
-    </header>
     <main id="content">
       <article id="information">
         <h3>Email: dzilenas@hawk.iit.edu</h3>
@@ -36,7 +37,7 @@
               <h4>Achievements/Tasks:</h4>
               <ul>
                 <li>Maintain the finances and ensure payments were delivered on time.</li>
-                  <li>Check in with the drivers and make sur e they can deliver in a timely manner. Update clients on estimated delivery.</li>
+                  <li>Check in with the drivers and make sure they can deliver in a timely manner. Update clients on estimated delivery.</li>
                   <li>Set up the business website to shorten application process and to bring in new clients. </li>
                   <li><a href="https://www.kaunastrucking.com/">https://www.kaunastrucking.com/</a></li>
               </ul>
@@ -103,6 +104,6 @@
       <p>Site content and design copyright Domantas Zilenas</p>
 
     </footer>
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>

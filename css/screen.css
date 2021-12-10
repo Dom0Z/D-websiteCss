@@ -35,8 +35,9 @@ body {
 .lightmode {
   color:#333333;
   background: #FFFFFF;
-
 }
+
+
 
 
 
@@ -95,8 +96,13 @@ figcaption {
   font-size: 1em;   /*18/18 = 1em*/
   padding: 0.667777em; /*12/18 = 0.666667*/
   text-align: center;
-  color: #fff;
+
 }
+
+input {
+  height: 5em;
+}
+
 
 
 
@@ -113,6 +119,8 @@ figcaption {
 }
 
 #header {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 #information {
