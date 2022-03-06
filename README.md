@@ -1,3 +1,3 @@
 # D-website
-Project Two ITM
-Name: Domantas Zilenas
+My website and Resume
+
